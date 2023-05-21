@@ -1,0 +1,81 @@
+/* Your existing CSS code */
+
+.home {
+  height: 100vh;
+}
+
+@keyframes tipsy {
+  0% {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) rotate(360deg);
+  }
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  background-color: #2e2e31;
+}
+
+.home h2 {
+  color: #fffbf1;
+  text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
+  font-size: 80px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: -3px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home h2:before,
+.home h2:after {
+  content: '';
+  padding: .9em .4em;
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  top: 50%;
+  display: block;
+  border: 15px solid red;
+  transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  animation: tipsy 10s infinite alternate ease-in-out;
+}
+
+.home h2:before {
+  border-color: #d9524a #d9524a transparent transparent;
+  z-index: -1;
+}
+
+.home h2:after {
+  border-color: transparent transparent #d9524a #d9524a;
+  box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
+}
+
+/* Responsive CSS for smaller devices */
+@media (max-width: 900px) {
+  .home h2 {
+    font-size: 30px;
+    top: 8%;
+  }
+
+  .home h2:before,
+  .home h2:after {
+    border: 7px solid red;
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    animation: tipsy 10s infinite alternate ease-in-out;
+  }
+
+  .home h2:before {
+    border-color: #d9524a #d9524a transparent transparent;
+    z-index: -1;
+  }
+  
+  .home h2:after {
+    border-color: transparent transparent #d9524a #d9524a;
+    box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
+  }
+}
