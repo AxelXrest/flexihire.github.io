@@ -2,8 +2,9 @@
   width: 15rem;
   height: 100%;
   background-color: #131313;
-  overflow-y: auto;
+  top: 0;
   transition: width 0.2s ease;
+  z-index: 1000;
 }
 
 .sidebar navbar button{
@@ -143,6 +144,12 @@
   align-items: center;
 }
 
+
+#sidebar-wrapper ul li a p {
+  margin-bottom: 0;
+  align-items: baseline;
+}
+
 .navbar-header .navbar-brand {
   display: flex;
   flex-direction: row;
@@ -157,6 +164,7 @@
   font-size: 1.2rem;
   font-weight: 800;
   color: #ffffff;
+  margin-bottom: 0;
 }
 
 .navbar .navbar-header {
@@ -225,10 +233,15 @@ navbar{
   color: #cacaca;
   text-decoration: none;
   text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar .admin-session a p{
   color: #cacaca;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .sidebar .admin-session a:hover{
@@ -259,7 +272,7 @@ navbar{
 
 @media (max-width: 768px) {
   .sidebar {
-    height: auto;
+    height: 100%;
     position: relative;
   }
 

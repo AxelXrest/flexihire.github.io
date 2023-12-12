@@ -22,8 +22,6 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-
 }
 
 .row {
@@ -67,7 +65,7 @@ footer {
 }
 
 .col .social a i {
-    color: #ff014fff;
+    color: rgb(255, 255, 255);
     margin-right: 5px;
     padding: 4px;
     transition: 0.3s ease;
@@ -94,7 +92,6 @@ footer {
     position: absolute;
     top: 5px;
     left: -10px;
-    background-color: #ff014fff;
     transition: 0.5s ease;
     opacity: 0;
 }
@@ -105,11 +102,12 @@ footer {
 
 .col .links a:hover {
     transform: translateX(-8px);
-    color: #ff014fff;
 }
 
 .col .support-details {
     display: inline-flex;
+    padding: 0.2rem;
+    align-items: center;
     justify-content: space-between;
     color: rgb(255, 255, 255);
 }
@@ -118,16 +116,21 @@ footer {
     margin-right: 15px;
 }
 
-.support-details p{
+.support-details p {
     color: rgb(255, 255, 255);
+    margin-bottom: 0;
 }
 
-.support-details p:hover{
+.support-details p:hover {
     color: rgb(201, 201, 201);
     cursor: pointer;
 }
 
-.row .form {
+.copyright .row{
+    margin-left: 20%;
+}
+
+.copyright .row .form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,11 +154,42 @@ footer {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     background-color: #ff014fff;
+
 }
 
-.silhouette{
+.silhouette {
     margin-bottom: -1rem;
     width: 100%;
+}
+
+.social .twitter-icon {
+    width: 2rem;
+    height: 2rem;
+    margin-top: -0.1rem;
+    transform: rotate(0deg);
+    filter: grayscale(100%) brightness(50%) sepia(100%) hue-rotate(330deg) saturate(800%) contrast(1) invert(100%);
+    margin-right: 0;
+    margin-left: 0;
+    padding: 4px;
+}
+
+.social .twitter-icon:hover {
+    transform: scale(1.5);
+}
+
+.social .twitter-icon::before {
+    content: '';
+    height: 16px;
+    width: 3px;
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    transition: 0.5s ease;
+    opacity: 0;
+}
+
+.social .twitter-icon:hover::before {
+    opacity: 1;
 }
 
 /********** Responsive Design ********/
@@ -169,10 +203,14 @@ footer {
         text-align: left;
         margin-bottom: 25px;
     }
-    
-    #followUs{
+
+    #followUs {
         width: 100%;
         text-align: center;
+    }
+
+    .copyright .row{
+        margin-left: 0;
     }
 }
 
@@ -186,13 +224,14 @@ footer {
         text-align: left;
         margin-bottom: 20px;
     }
-    div#followUs{
+
+    div#followUs {
         width: 100%;
         text-align: center;
     }
 }
 
-#followUs{
+#followUs {
     padding: 1.5rem;
 }
 
@@ -204,7 +243,7 @@ footer .copyright {
     border-top: 1px solid #ff014fff;
 }
 
-footer .copyright a{
+footer .copyright a {
     color: #5000e6;
 }
 

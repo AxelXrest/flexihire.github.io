@@ -4,8 +4,48 @@
   flex-direction: column;
   align-items: center;
   margin-top: 40px;
-  height: 100vh;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: azure;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
+  /* New styles for job-progress section */
+  .job-progress {
+    width: 80%;
+    min-width: 300px; /* Adjust this value based on your design preferences */
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+
+  .job-progress h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .job-progress-numbers {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .job-progress p {
+    font-size: 16px;
+    color: #555;
+  }
+
+  .job-progress p span {
+    font-weight: bold;
+    margin-left: 10px;
+  }
 
 .profile-pic,
 .profile-initial {
@@ -53,7 +93,25 @@
   font-weight: bold;
   display: flex;
   align-items: center;
-  top: 160px;
+  top: 17rem;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.edit-icon-container {
+  cursor: pointer;
+  margin-right: 0.6rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .user-container {
+    max-width: 800px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -109,8 +167,10 @@
 
 .camera-icon-container {
   position: absolute;
-  top: 45%;
-  left: 50%;
+  top: 60%;
+  left: 60%;
+  margin-top: 3.8rem;
+  margin-left: 3.8rem;
   color: #ffffff;
   transform: translate(-50%, -50%);
   border-radius: 50%;
@@ -141,6 +201,15 @@
   background-color: #818181;
 }
 
+.edit-icon-container {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.edit-icon-container:hover {
+  color: #7be600; /* Change color on hover */
+}
+
 @media (max-width: 576px) {
 
   .profile-pic,
@@ -155,7 +224,7 @@
   }
 
   .camera-icon-container {
-    top: 40%;
+    top: 50%;
   }
 
   .zoom-overlay img {
@@ -167,8 +236,8 @@
 @media (max-width: 768px) {
   .camera-icon-container {
     position: absolute;
-    bottom: -45px;
-    left: 36%;
+    bottom: 1rem;
+    left: -2rem;
     transform: translateY(20%);
   }
 
@@ -176,4 +245,13 @@
     background-color: transparent;
   }
 
+}
+
+.personal{
+  margin: 5rem;
+}
+
+.personal p{
+  margin: -5rem;
+  margin-left: -5rem;
 }
