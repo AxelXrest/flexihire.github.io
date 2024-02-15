@@ -103,8 +103,7 @@ function PageFooter() {
                 <div class="col-md-6 text-center text-md-end">
                   <div class="footer-menu">
                     <a href="/">Home</a>
-                    <a href="">Cookies</a>
-                    <a href="">Help</a>
+                    <a href="/ai">Chat with AI</a>
                     <a href="/faq">FAQs</a>
                   </div>
                 </div>

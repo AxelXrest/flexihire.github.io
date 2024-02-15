@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './components/Home/Home';
-import Help from './components/PageFooter/Help';
+import AIChat from './components/AIChat/AIChat';
 import ContactForm from './components/ContactForm/ContactForm';
 import AboutUs from './components/AboutUs/About';
 import Jobs from './components/Jobs/Jobs';
@@ -20,7 +20,7 @@ const AppRoutes = ({ userName }) => {
   return (
     <Routes>
       <Route path="/" element={<Home name={userName} />} />
-      <Route path="/help" element={<Help />} />
+      <Route path="/ai" element={<AIChat />} />
       <Route path="/contactUs" element={<ContactForm />} />
       <Route path="/mailReceived" element={<MailReceived />} />
       <Route path="/aboutUs" element={<AboutUs />} />
