@@ -15,7 +15,6 @@ import MailReceived from './components/ContactForm/MailReceived';
 import OthersProfile from './components/Profile/OthersProfile';
 import FAQs from './components/PageFooter/FAQs';
 import Payment from './components/Payment/Payment';
-import AIChat from './components/AIChat/AIChat';
 
 const AppRoutes = ({ userName }) => {
   return (
@@ -30,7 +29,6 @@ const AppRoutes = ({ userName }) => {
       <Route path="/termsCondition" element={<TermsCondition />} />
       <Route path="/profile" element={<Profile />} />
       <Route path="/member" element={<Member />} />
-      <Route path="/ai" element={<AIChat />} />
       <Route path="/payment" element={<Payment />} />
       <Route path="/howItWorks" element={<HowItWorks />} />
       <Route path="/faq" element={<FAQs/>} />

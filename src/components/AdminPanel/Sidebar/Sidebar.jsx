@@ -24,14 +24,6 @@ function Sidebar() {
             <i className="fa-brands fa-redhat"></i>
             <p> Admin</p>
           </a>
-          <button
-            type="button"
-            className="navbar-toggle collapsed"
-            onClick={toggleSidebar}
-            id="menu-toggle"
-          >
-            <i className="fa-solid fa-thumbtack"></i>
-          </button>
         </div>
         <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul className="nav navbar-nav">
@@ -57,7 +49,7 @@ function Sidebar() {
             <li className="active">
               <a href="/dashboard">
                 <span className="fa-stack fa-lg pull-left">
-                  <i className="fa fa-dashboard fa-stack-1x "></i>
+                  <i class="fa-solid fa-table-columns"></i>
                 </span>{" "}
                 <p>Dashboard</p>
               </a>
@@ -65,7 +57,7 @@ function Sidebar() {
             <li>
               <a href="/reports">
                 <span className="fa-stack fa-lg pull-left">
-                  <i className="fa fa-flag fa-stack-1x "></i>
+                  <i class="fa-solid fa-flag-checkered"></i>
                 </span>
                 <p>Reports</p>
               </a>
@@ -73,7 +65,7 @@ function Sidebar() {
             <li>
               <a href="/users">
                 <span className="fa-stack fa-lg pull-left">
-                  <i className="fa fa-cloud-download fa-stack-1x "></i>
+                  <i class="fa fa-solid fa-users"></i>
                 </span>
                 <p>Users</p>
               </a>
@@ -82,7 +74,7 @@ function Sidebar() {
               <a href="/mails">
                 {" "}
                 <span className="fa-stack fa-lg pull-left">
-                  <i className="fa fa-cart-plus fa-stack-1x "></i>
+                  <i class="fa-solid fa-envelopes-bulk"></i>
                 </span>
                 <p>Mails</p>
               </a>
@@ -91,7 +83,7 @@ function Sidebar() {
               <a href="/managepost">
                 {" "}
                 <span className="fa-stack fa-lg pull-left">
-                  <i className="fa fa-wrench fa-stack-1x "></i>
+                  <i class="fa-solid fa-signs-post"></i>
                 </span>
                 <p>Manage Post</p>
               </a>
@@ -99,7 +91,7 @@ function Sidebar() {
           </ul>
         </div>
         <div className="admin-session">
-          <div className="admin-logo">A</div>
+          <div className="admin-logo"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fportalinfotec.com%2Fwp-content%2Fuploads%2F2021%2F04%2F20141031772049.jpg&f=1&nofb=1&ipt=f6f12c4a79e7dce8e86f97d3140e1e4effefe8791401a7c4ef09bb6d26a87ecc&ipo=images" alt="A" /></div>
           <a onClick={handleLogout}><p><i className="fa-solid fa-right-from-bracket fa-flip-horizontal"> </i></p> <p>Logout</p></a>
         </div>
       </div>
