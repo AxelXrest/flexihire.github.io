@@ -11,13 +11,13 @@
   <a href="#credits"><img alt="picture 5" src="https://i.imgur.com/QA23l5X.png" width="220"/></a>
 </p>
 <h3>Welcome to a short trip for my website project and showcasing</h3>
-<a align="center"><img src="https://i.imgur.com/5v8Xc6v.gif"/></a><br><br>
+<a align="center"><img src="https://i.imgur.com/5v8Xc6v.gif"/></a>
 <h2>✨ Kickoff ✨</h2>
-**Welcome to my GitHub repository of FlexiHire, a freelancing website! 
+Welcome to my GitHub repository of FlexiHire, a freelancing website! 
 This was made as a project for my second year, so there can be many mistakes. Please ignore them or you can suggest some edits if you want.
-I have used [ReactJS](https://react.dev/) for frontend and integrated it with [Firebase](https://firebase.google.com/) for data storings.<br>**
+I have used [ReactJS](https://react.dev/) for frontend and integrated it with [Firebase](https://firebase.google.com/) for data storings.<br>
 <h4>If you are here for reference and want to <s>steal</s> use it, then please give me the credits 😃.</h4>
-<i>If you need any help, you can open an issue on GitHub or you can contact me on Discord: `mr.xrest` or `axelxrest`, I will be happy to help if I can!</i><br>
+<i>If you need any help, you can open an issue on GitHub or you can contact me on Discord: `mr.xrest` or `axelxrest`, I will be happy to help if I can!</i><br><br>
 
 📓 **NOTE:**<br> 
 * This website is a masterpiece of imperfection, so if you're planning to make changes, buckle up for a wild ride!
@@ -30,7 +30,7 @@ Dive into FlexiHire today and explore the wild world of freelance opportunities.
 
 <h2>TechTango(Initialization)</h2>
 <h2 id="installation"> Installation:</h2>
-**If you plan to use it then fork the repo and download all dependancies and run. You should have [NodeJS](https://nodejs.org/en) installed in your pc to run the web.**
+If you plan to use it then fork the repo and download all dependancies and run. You should have [NodeJS](https://nodejs.org/en) installed in your pc to run the web.
 
 <details>
 <summary><b>Download Dependancies:</b></summary>
