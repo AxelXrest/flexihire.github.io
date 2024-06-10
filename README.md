@@ -11,7 +11,7 @@
   <a href="#credits"><img alt="picture 5" src="https://i.imgur.com/QA23l5X.png" width="220"/></a>
 </p>
 ### Welcome to a short trip for my website project and showcasing
-<a align="center"><img src="https://i.imgur.com/gallery/hello-anime-gif-FrfAQOA"/></a><br><br>
+<a align="center"><img src="https://i.imgur.com/a/FrfAQOA.gif"/></a><br><br>
 <h2>✨ Kickoff ✨</h2>
 Welcome to my GitHub repository of FlexiHire, a freelancing website! 
 This was made as a project for my second year, so there can be many mistakes. Please ignore them or you can suggest some edits if you want.
@@ -28,7 +28,7 @@ verified profiles, and global reach. It's supposed to empower freelancers and em
 Dive into FlexiHire today and explore the wild world of freelance opportunities.
 
 <h2>TechTango(Initialization)</h2>
-## Installation:
+<h2 id="installation"> Installation:</h2>
 If you plan to use it then fork the repo and download all dependancies and run. You should have [NodeJS](https://nodejs.org/en) installed in your pc to run the web.
 
 <details>
@@ -68,53 +68,55 @@ Although if the browser is not started automatically then manually enter the URL
 </details>
 
 <h2>Visual Repository</h2>
-## Gallery:
+<h2 id="gallery"> Gallery:</h2>
 
 <h3 align="left">Home:</h3>
-<p align="center"><img src="https://i.imgur.com/a/w514PKa.gif" width="1200"/></p>
+<p align="center"><img src="https://i.imgur.com/WnytGwa.gif" width="1200"/></p>
 <h3 align="left">Login and SignUp:</h3>
-<p align="center"><img src="https://i.imgur.com/a/Ep6Gz6S.gif" width="1200"/></p>
 <h4 align="center">Login and SignUp through Facebook and X is not integrated</h4>
+<p align="center"><img src="https://i.imgur.com/GL1nsbz.gif" width="1200"/></p>
 <h3 align="left">Jobs:</h3>
-<p align="center"><img src="https://i.imgur.com/e5P6ViC.png" width="1200"/></p>
 <h4 align="center">List all the jobs available</h4>
-<p align="center"><img src="https://i.imgur.com/Xcyg47I.png" width="1200"/></p>
+<p align="center"><img src="https://i.imgur.com/e5P6ViC.png" width="1200"/></p>
 <h4 align="center">Create an Opening/ Job Posting</h4>
+<p align="center"><img src="https://i.imgur.com/Xcyg47I.png" width="1200"/></p>
 <h3 align="left">Contact Us:</h3>
 <p align="center"><img src="https://i.imgur.com/WxQyEBN.gif" width="1200"/></p>
 <h3 align="left">About Us:</h3>
 <p align="center"><img src="https://i.imgur.com/MQxkVUK.png" width="1200"/></p>
 <h3 align="left">Profile:</h3>
-<p align="center"><img src="https://i.imgur.com/CqrGvA3.png" width="1200"/></p>
 <h4 align="center">Minimum UI as I am not so creative. Though separated Own Profile</h4>
-<p align="center"><img src="https://i.imgur.com/rqySbrM.png" width="1200"/></p>
+<p align="center"><img src="https://i.imgur.com/CqrGvA3.png" width="1200"/></p>
 <h4 align="center">Same UI as previous. Though added option to report users through Other Users Profile</h4>
+<p align="center"><img src="https://i.imgur.com/rqySbrM.png" width="1200"/></p>
 <h3 align="left">Search Engine:</h3>
-<p align="center"><img src="https://i.imgur.com/ROWD0ut.png" width="1200"/></p>
 <h4 align="center">Searching for Flexer(Users)</h4>
-<p align="center"><img src="https://i.imgur.com/nSx4dZC.png" width="1200"/></p>
+<p align="center"><img src="https://i.imgur.com/ROWD0ut.png" width="1200"/></p>
 <h4 align="center">Searching for All Openings(Jobs Available)</h4>
+<p align="center"><img src="https://i.imgur.com/nSx4dZC.png" width="1200"/></p>
 <h3 align="left">Header and Footer:</h3>
 <p align="center"><img src="https://i.imgur.com/UZbVlTH.png" width="1200"/></p>
-<h4 align="center">Chat with AI</h4>
-<p align="center"><img src="https://i.imgur.com/ymvUTke.png" width="1200"/></p>
+<h3 align="center">Chat with AI:</h3>
+<p align="left"><img src="https://i.imgur.com/ymvUTke.png" width="1200"/></p>
 <h4 align="center">Made it last minute kind, so did't worked in making UI perfect</h4>
 <h3 align="left">Chat List/ Friend List:</h3>
-<p align="center"><img src="https://i.imgur.com/qx3nhjn.png" width="1200"/></p>
 <h4 align="center">All users are friend by default and not implemented adding friends.</h4>
-<p align="center"><img src="https://i.imgur.com/IoaiFm4.png" width="1200"/></p>
+<p align="center"><img src="https://i.imgur.com/qx3nhjn.png" width="1200"/></p>
 <h4 align="center">Real-time chatting with any users.</h4><br>
-<h4>The way website was made responsive though all devices might not have a perfect UI</h4>
-<p align="center"><img src="https://i.imgur.com/bazqIug.png" width="1200"/></p>
+<p align="center"><img src="https://i.imgur.com/IoaiFm4.png" width="1200"/></p>
+<h3>The way website was made responsive though all devices might not have a perfect UI</h3>
 <h4 align="center">Login/SignUp</h4>
-<p align="center"><img src="https://i.imgur.com/ecN7dzq.png" width="1200"/></p>
+<p align="center"><img src="https://i.imgur.com/bazqIug.png"/></p>
 <h4 align="center">Home</h4>
-<p align="center"><img src="https://i.imgur.com/W8pVESC.png" width="1200"/></p>
+<p align="center"><img src="https://i.imgur.com/ecN7dzq.png"/></p>
 <h4 align="center">Jobs</h4>
-<p align="center"><img src="https://i.imgur.com/peM5dXQ.png" width="1200"/></p>
+<p align="center"><img src="https://i.imgur.com/W8pVESC.png"/></p>
 <h4 align="center">About</h4>
+<p align="center"><img src="https://i.imgur.com/peM5dXQ.png"/></p>
 <h3 align="left">You can try the web for yourself to discover all the features.</h3>
-## Credits:
+
+<h2>Debtors' List</h2>
+<h2 id="credits">Credits:</h2>
 
 * **There are images taken from [Wallhaven](https://wallhaven.cc), [pexels](https://pexels.com), [UHD Wallpaper](https://www.uhdpaper.com/), [Wallpaperflare](https://www.wallpaperflare.com/), [pixiv](https://www.pixiv.net/en/).**<br>
 * **The concept was ~~stolen~~ inspired from [Freelancer](https://www.freelancer.com/), [upwork](https://www.upwork.com/).**<br>
