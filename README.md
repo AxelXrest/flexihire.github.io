@@ -117,7 +117,7 @@ Although if the browser is not started automatically then manually enter the URL
 <p align="center"><img src="https://i.imgur.com/peM5dXQ.png"/></p>
 <h3 align="left">You can try the web for yourself to discover all the features.</h3>
 
-<h2>Debtors' List</h2>
+<h2>✨ Debtors' List ✨</h2>
 <h2 id="credits">Credits:</h2>
 
 * **There are images taken from [Wallhaven](https://wallhaven.cc), [pexels](https://pexels.com), [UHD Wallpaper](https://www.uhdpaper.com/), [Wallpaperflare](https://www.wallpaperflare.com/), [pixiv](https://www.pixiv.net/en/).**<br>
