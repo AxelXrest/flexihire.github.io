@@ -10,13 +10,15 @@
   <a href="#gallery"><img alt="picture 3" src="https://i.imgur.com/i9rmhBC.png" width="220"/></a>
   <a href="#credits"><img alt="picture 5" src="https://i.imgur.com/QA23l5X.png" width="220"/></a>
 </p>
-### Welcome to a short trip for my website project and showcasing
-<a align="center"><img src="https://i.imgur.com/a/FrfAQOA.gif"/></a><br><br>
+<h3>Welcome to a short trip for my website project and showcasing</h3>
+<a align="center"><img src="https://i.imgur.com/5v8Xc6v.gif"/></a><br><br>
 <h2>✨ Kickoff ✨</h2>
-Welcome to my GitHub repository of FlexiHire, a freelancing website! 
+<p>Welcome to my GitHub repository of FlexiHire, a freelancing website! 
 This was made as a project for my second year, so there can be many mistakes. Please ignore them or you can suggest some edits if you want.
-**If you are here for reference and want to ~~steal~~ use it, then please give me the credits 😃.**
-If you need any help, you can open an issue on GitHub or you can contact me on Discord: `mr.xrest` or `axelxrest`, I will be happy to help if I can!
+I have used [ReactJS](https://react.dev/) for frontend and integrated it with Firebase for data storings.<br>
+</p>
+<h4>If you are here for reference and want to <s>steal</s> use it, then please give me the credits 😃.</h4>
+<i>If you need any help, you can open an issue on GitHub or you can contact me on Discord: `mr.xrest` or `axelxrest`, I will be happy to help if I can!</i>
 
 📓 **NOTE:**<br> 
 * This website is a masterpiece of imperfection, so if you're planning to make changes, buckle up for a wild ride!
@@ -33,23 +35,19 @@ If you plan to use it then fork the repo and download all dependancies and run. 
 
 <details>
 <summary><b>Download Dependancies:</b></summary>
-Verify you have node installed.
-
+Verify you have node installed:<br>
 ```bash
 node --version
 ```
-We will be using npm to install the dependancies required
-
+We will be using npm to install the dependancies required<br>
 ```bash
 npm install -g
 ```
-If the above command throws error then use
-
+If the above command throws error then use<br>
 ```bash
 npm install --force
 ```
-I had a problem as *Cannot find module '@google/generative-ai'*, if you also face it then run following command else skip this
-
+I had a problem as *Cannot find module '@google/generative-ai'*, if you also face it then run following command else skip this<br>
 ```bash
 npm install @google/generative-ai
 ```
@@ -57,14 +55,15 @@ npm install @google/generative-ai
 
 <details>
 <summary><b>Local Inauguration:</b></summary>
-Once the dependancies are downloaded proceed to run the website in localhost
+Once the dependancies are downloaded proceed to run the website as:<br>
 
 ```bash
 npm start
 ```
 This should start the website in [http://localhost:3000](http://localhost:3000) and redirect to the default browser to run the website.
-Although if the browser is not started automatically then manually enter the URL and run.
-📓* **NOTE:** The terminal is gonna show some warnings, ignore it as it would't be affecting the website that much but if you want clear start then, go ahead and fix it.*
+Although if the browser is not started automatically then manually enter the URL and run.<br>
+
+📓 **NOTE: The terminal is gonna show some warnings, ignore it as it would't be affecting the website that much but if you want clear start then, go ahead and fix it.**
 </details>
 
 <h2>Visual Repository</h2>
@@ -128,5 +127,5 @@ Although if the browser is not started automatically then manually enter the URL
 ---
 <p align="center"><b>That's it! Have a nice day!</b></p>
 <p align="center"><img src="https://i.imgur.com/nN9OqwO.gif"/></p>
-<p align="center"><b>Signing Off.</b></p>
+<h2 align="center"><b>Signing Off.</b></h2>
 
